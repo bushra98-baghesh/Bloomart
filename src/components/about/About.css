@@ -1,0 +1,41 @@
+.section {
+  position: relative;
+
+  max-width: 100%;
+
+  margin-top: 200px;
+}
+.title {
+  font-size: 80px;
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: 300;
+  color: rgb(47, 47, 47);
+  left: 30%;
+  z-index: 5;
+}
+.left-c {
+  width: 50%;
+  font-weight: 500;
+  font-size: 18px;
+  z-index: 5;
+  line-height: 30px;
+}
+.right-c {
+  position: relative;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.img-3 {
+  width: 40%;
+  position: absolute;
+  right: 95%;
+  bottom: 10%;
+}
+.img-2 {
+  width: 40%;
+  position: absolute;
+  left: 70%;
+  bottom: 30%;
+}
